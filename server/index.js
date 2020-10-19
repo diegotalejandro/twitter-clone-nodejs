@@ -6,7 +6,7 @@ const rateLimit = require("express-rate-limit");
 
 const app = express();
 
-const db = monk("localhost:27017/twitter-clone");
+const db = monk(process.env.MONGO_URI || "localhost:27017/twitter-clone");
 const news = db.get("news");
 
 const filter = new Filter();

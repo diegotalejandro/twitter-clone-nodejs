@@ -12,6 +12,12 @@
 }
 
 .news {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
+  padding-top: 1%;
+}
+
+.each-new {
+  margin: 0 auto;
+  padding-top: 4%;
 }

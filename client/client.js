@@ -3,7 +3,10 @@
 const form = document.querySelector("form");
 const loadingElement = document.querySelector(".loading");
 const newsElement = document.querySelector(".news");
-const API_URL = "http://localhost:5000/news";
+const API_URL =
+  window.location.hostname == "localhost"
+    ? "http://localhost:5000/news"
+    : "https://twitter-clone-nodejs-api.vercel.app/news";
 
 loadingElement.style.display = "";
 
@@ -49,6 +52,7 @@ function listAllNews() {
       news.reverse();
       news.forEach((element) => {
         const div = document.createElement("div");
+        div.className = "each-new";
         const header = document.createElement("h3");
         header.textContent = element.name;
 
