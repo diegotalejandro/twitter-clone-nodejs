@@ -7,7 +7,7 @@ Referencial Video: https://youtu.be/JnEH9tYLxLk.
 
 https://twitter-clone-nodejs-client.vercel.app/
 
-<img aling="center" alt="twitter-clone-nodejs" src="ScreenShot-Twitter-Clone-NodeJS-Client.png"/>
+<img aling="center" alt="twitter-clone-nodejs" width="80%" src="ScreenShot-Twitter-Clone-NodeJS-Client.png"/>
 
 # twitter-clone-nodejs-api
 
